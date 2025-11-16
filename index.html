@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Grocery Expiry Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Smart Grocery <span>Expiry</span>Tracker</h1>
+
+<div class="card">
+  <button id="notificationsBtn">Enable Notifications</button>
+
+  <form id="groceryForm">
+    <input type="text" id="itemName" placeholder="Item Name" required>
+    <input type="date" id="expiryDate" required>
+    <button type="submit">Add Item</button>
+  </form>
+</div>
+
+<ul id="groceryList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
